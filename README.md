@@ -11,5 +11,6 @@ I then update the default root object (in the distribution page) to point to ind
 ![alt text](CloudFront_Default_Root_Object.png)
 
 ## Uploading content
-
+```
 curl -v -T <filename> https://d123.cloudfront.net/upload/<filename>
+```
